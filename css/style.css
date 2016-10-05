@@ -1,18 +1,18 @@
-body{
-	font-family: 'Russo One', sans-serif;
-	font-size: 13px;
-	color: #444;
-	font-weight: 700;
-	letter-spacing: 2px;
-	line-height: 5px;
-	text-transform: uppercase;
-}
+/*------------------------------Header Starts------------------------*/
+
 header{
+	top: 0;
 	width: 100%;
-	position: fixed;
 	height: 100px;	
-	border-bottom: solid 1px black;
-	background: #fbfbfb;
+	border-bottom: solid 1px #EEE;
+	background: #F5F5F5;
+	z-index: 1;
+	position: fixed;
+	font-family: 'Russo One', sans-serif;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-weight: 400;
 }
 header img{
 	height: 100px;
@@ -27,11 +27,57 @@ nav li{
 	display: inline;
 	padding-right: 40px;
 	}
-	
-a{
+
+/*---------------------------End Header--------------------------------------------------*/
+
+/*--------------------------------Misc Starts----------------------------------------------------*/
+
+a
+{
 	color: #444;
 	text-decoration: none;
 }
-a:hover{
+a:hover
+{
 	color: #1ABC9C;
 }
+
+/*---------------------------End Misc--------------------------------------------------*/
+
+/*--------------------------3 Column section Start--------------------------------------------------------------*/
+.content
+	{
+		margin-top: 102pX;	
+	}
+.content h1{
+	padding-top: 15px;
+	font-family: 'Raleway',sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 5px #333;
+}
+.content h2{
+	font-family: 'Jura', sans-serif;
+	color: rgb(68,68,68);
+}
+.content p{
+	color: rgb(153,153,153);
+}
+.content img
+	{
+		width: 300px;
+		height: 170px;
+	}
+
+/*--------------------------3 Column section Ends--------------------------------------------------------------*/
+
+/*--------------------------------Hero Section Starts----------------------------------------------------------------*/
+.banner h1{
+	text-align: center;
+}
+.banner h2{
+	background: url(../img/banner.jpg) no-repeat;
+	width: 800px;
+}
+
+/*--------------------------------Hero Section Ends----------------------------------------------------------------*/

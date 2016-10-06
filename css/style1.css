@@ -4,11 +4,17 @@ p{
 }
 nav li{
 		display: inline;
-	}
-	a{
-		text-decoration: none;
-		color: rgb(153,153,153);
-	}
+}
+a{
+	text-decoration: none;
+	color: rgb(153,153,153);
+}
+i{	
+	color: #444;
+}
+i:hover{
+	color: #1ABC9C;
+}
 
 /*******************************Body Ends**********************************/
 
@@ -60,17 +66,17 @@ header a:hover,.active
 .title{
 	margin-top: 117px;
 	width: 100%;
-	height: 150px;
+	height: 120px;
 	background: #1ABC9C;
 }
 .title h1{
 	text-transform: uppercase;
 	font-family: 'Raleway',sans-serif;
 	color:#FFF;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	font-size: 30px;
 	font-weight: 600;
-	padding-top: 20px;
+	padding-top: 5px;
 }
 .title h2{
 	font-family: 'Jura', sans-serif;
@@ -80,6 +86,9 @@ header a:hover,.active
 /*---------------------------Title Ends Here--------------------------------------------------*/
 
 /*---------------------------Gallery Start Here--------------------------------------------------*/
+.gallery{
+	margin-top: 5px;
+}
 .gallery img{
 	width: 250px;	
 	height: 250px;
@@ -87,10 +96,11 @@ header a:hover,.active
 .gallery h2{
 	font-family: 'Jura', sans-serif;
 	font-weight: 300;
+	padding-top: 10px;
 
 }
-.gallery h3{
-
+.gallery h2:hover{
+	font-weight: 600;
 }
 
 /*---------------------------Gallery Ends Here--------------------------------------------------*/
@@ -106,7 +116,6 @@ header a:hover,.active
 }
 .copyrights p{
 	padding-top: 30px;
-	color: rgb(153,153,153);
 }
 .widgets nav{
 	padding-top: 30px;

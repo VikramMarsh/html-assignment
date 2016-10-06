@@ -1,0 +1,125 @@
+/*******************************Body Starts**********************************/
+p{
+	color: rgb(153,153,153);
+}
+nav li{
+		display: inline;
+	}
+	a{
+		text-decoration: none;
+		color: rgb(153,153,153);
+	}
+
+/*******************************Body Ends**********************************/
+
+
+/*------------------------------Header Starts------------------------*/
+
+header{
+	top: 0;
+	width: 100%;
+	min-width: 960px;
+	height: 110px;	
+	border-bottom: solid 1px #EEE;
+	background: #F5F5F5;
+	z-index: 1;
+	position: fixed;
+	font-family: 'Russo One', sans-serif;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 400;
+	box-shadow: 0px 5px 5px #888888;
+	min-width: 1200px;
+
+}
+header img{
+	height: 100px;
+	width: 239px;
+	float: left;
+}
+
+header nav{
+	float: right;
+	padding-top: 50px;
+}
+
+header nav li{
+	padding-right: 40px;
+	}
+header a{
+	color: #444;
+}
+header a:hover,.active
+{
+	color: #1ABC9C;
+}
+
+/*---------------------------Header Ends Here--------------------------------------------------*/
+/*---------------------------Title Start Here--------------------------------------------------*/
+
+.title{
+	margin-top: 117px;
+	width: 100%;
+	height: 150px;
+	background: #1ABC9C;
+}
+.title h1{
+	text-transform: uppercase;
+	font-family: 'Raleway',sans-serif;
+	color:#FFF;
+	letter-spacing: 2px;
+	font-size: 30px;
+	font-weight: 600;
+	padding-top: 20px;
+}
+.title h2{
+	font-family: 'Jura', sans-serif;
+	font-weight: 300;
+	color: #FFF;
+}
+/*---------------------------Title Ends Here--------------------------------------------------*/
+
+/*---------------------------Gallery Start Here--------------------------------------------------*/
+.gallery img{
+	width: 250px;	
+	height: 250px;
+}
+.gallery h2{
+	font-family: 'Jura', sans-serif;
+	font-weight: 300;
+
+}
+.gallery h3{
+
+}
+
+/*---------------------------Gallery Ends Here--------------------------------------------------*/
+
+/*-----------------------------Footer Starts------------------------------------------------*/
+
+.footer_full{
+	width: 100%;
+	height: 100px;
+	background: #333;
+	margin-top: 20px;
+	box-shadow: 0px -5px 5px #888;
+}
+.copyrights p{
+	padding-top: 30px;
+	color: rgb(153,153,153);
+}
+.widgets nav{
+	padding-top: 30px;
+	float: right;
+}
+.widgets nav li{
+	padding-right: 1px;
+}
+.copyrights a:hover{
+	color: #1ABC9C;
+}
+span:before{
+	content: '\  |  ';
+}
+
+/*-----------------------------Footer Ends------------------------------------------------*/

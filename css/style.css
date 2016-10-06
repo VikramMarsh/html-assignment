@@ -1,9 +1,30 @@
+/*******************************Body Starts**********************************/
+
+p{
+	color: rgb(153,153,153);
+
+}
+h2{
+	font-family: 'Jura', sans-serif;
+	color: rgb(68,68,68);
+}
+nav li{
+		display: inline;
+	}
+	a{
+		text-decoration: none;
+		color: rgb(153,153,153);
+	}
+
+/*******************************Body Ends**********************************/
+
+
 /*------------------------------Header Starts------------------------*/
 
 header{
 	top: 0;
 	width: 100%;
-	height: 100px;	
+	height: 110px;	
 	border-bottom: solid 1px #EEE;
 	background: #F5F5F5;
 	z-index: 1;
@@ -11,43 +32,47 @@ header{
 	font-family: 'Russo One', sans-serif;
 	text-transform: uppercase;
 	font-size: 13px;
-	letter-spacing: 1px;
 	font-weight: 400;
+	box-shadow: 0px 5px 5px #888888;
+	min-width: 1200px;
 }
 header img{
 	height: 100px;
-	width: 350px;
+	width: 239px;
 }
 
-nav{
+header nav{
 	float: right;
-	padding-top: 40px;
+	padding-top: 50px;
 }
-nav li{
-	display: inline;
+header nav li{
 	padding-right: 40px;
 	}
-
-/*---------------------------End Header--------------------------------------------------*/
-
-/*--------------------------------Misc Starts----------------------------------------------------*/
-
-a
-{
+header a{
 	color: #444;
 	text-decoration: none;
 }
-a:hover
+header a:hover,.active
 {
 	color: #1ABC9C;
 }
 
+/*---------------------------End Header--------------------------------------------------*/
+
+/*--------------------------------Icons Starts----------------------------------------------------*/
+
+	i{	
+		color: rgb(153,153,153);
+	}
+	i:hover{
+		color: #1ABC9C;
+	}
 /*---------------------------End Misc--------------------------------------------------*/
 
 /*--------------------------3 Column section Start--------------------------------------------------------------*/
 .content
 	{
-		margin-top: 102pX;	
+		margin-top: 120pX;	
 	}
 .content h1{
 	padding-top: 15px;
@@ -56,28 +81,98 @@ a:hover
 	text-transform: uppercase;
 	text-shadow: 2px 2px 5px #333;
 }
-.content h2{
-	font-family: 'Jura', sans-serif;
-	color: rgb(68,68,68);
-}
-.content p{
-	color: rgb(153,153,153);
-}
 .content img
 	{
 		width: 300px;
 		height: 170px;
 	}
+	
 
 /*--------------------------3 Column section Ends--------------------------------------------------------------*/
 
 /*--------------------------------Hero Section Starts----------------------------------------------------------------*/
-.banner h1{
+.Hero{
+	margin-top: 30px;
+	width: 100%;
+	background: #F5F5F5;
+	border-bottom: solid 1px #EEE;
+	border-top: solid 1px #EEE;
+ box-shadow: 0px 5px 5px #888, 0px -5px 5px #888;
+}
+.Hero h1{
+	padding-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Raleway',sans-serif;
+	letter-spacing: 2px;
+	font-size: 30px;
+	font-weight: 700
+
+}
+.Hero h2{
 	text-align: center;
 }
-.banner h2{
-	background: url(../img/banner.jpg) no-repeat;
-	width: 800px;
+.banner h3{
+	background: url(../img/bike_banner.jpg) no-repeat;
+	width: 900px;
+	height: 618px;
+	color: rgb(68,68,68); 
+	margin: 20px auto;
 }
 
+
 /*--------------------------------Hero Section Ends----------------------------------------------------------------*/
+
+/*-----------------------------2 column section------------------------------------------------*/
+
+
+.content1 img{
+	width: 300px;
+}
+
+.left_image{
+	margin: 50px auto;
+}
+.right_image{
+	margin: 50px auto;
+}
+.content1{
+	margin-top: 50px;
+}
+.content1 h1{
+	text-transform: uppercase;
+	font-family: 'Raleway',sans-serif;
+	letter-spacing: 2px;
+	font-size: 30px;
+	font-weight: 700
+}
+
+/*-----------------------------2 column section------------------------------------------------*/
+
+/*-----------------------------Footer Starts------------------------------------------------*/
+
+.footer_full{
+	width: 100%;
+	height: 100px;
+	background: #333;
+	margin-top: 20px;
+	box-shadow: 0px -5px 5px #888;
+}
+.copyrights p{
+	padding-top: 30px;
+	color: rgb(153,153,153);
+}
+.widgets nav{
+	padding-top: 30px;
+	float: right;
+}
+.widgets nav li{
+	padding-right: 1px;
+}
+.copyrights a:hover{
+	color: #1ABC9C;
+span:before{
+	content: '\  |  ';
+}
+
+/*-----------------------------Footer Ends------------------------------------------------*/

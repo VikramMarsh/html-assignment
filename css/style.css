@@ -4,21 +4,25 @@ p{
 	color: rgb(153,153,153);
 
 }
-h2{
+h2
+{
 	font-family: 'Jura', sans-serif;
 	color: rgb(68,68,68);
 }
-nav li{
+nav li
+{
 	display: inline;
 }
-a{
+a
+{
 	text-decoration: none;
 	color: rgb(153,153,153);
 }
 i{	
 	color: #444;
 }
-i:hover{
+i:hover
+{
 	color: #1ABC9C;
 }
 
@@ -28,7 +32,8 @@ i:hover{
 
 /*------------------------------Header Starts------------------------*/
 
-header{
+header
+{
 	top: 0;
 	width: 100%;
 	height: 110px;	
@@ -43,19 +48,23 @@ header{
 	box-shadow: 0px 5px 5px #888888;
 	min-width: 1200px;
 }
-header img{
+header img
+{
 	height: 100px;
 	width: 239px;
 }
 
-header nav{
+header nav
+{
 	float: right;
 	padding-top: 50px;
 }
-header nav li{
+header nav li
+{
 	padding-right: 40px;
-	}
-header a{
+}
+header a
+{
 	color: #444;
 	text-decoration: none;
 }
@@ -66,45 +75,40 @@ header a:hover,.active
 
 /*---------------------------End Header--------------------------------------------------*/
 
-
-	i{	
-		color: #444;
-	}
-	i:hover{
-		color: #1ABC9C;
-	}
-
 /*--------------------------3 Column section Start--------------------------------------------------------------*/
-.content
-	{
-		margin-top: 120pX;	
-	}
-.content h1{
+.content_3col
+{
+	margin-top: 120pX;	
+}
+.content_3col h1
+{
 	padding-top: 15px;
 	font-family: 'Raleway',sans-serif;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	text-shadow: 2px 2px 5px #333;
 }
-.content img
-	{
-		width: 300px;
-		height: 170px;
-	}
-	
+.content_3col img
+{
+	width: 300px;
+	height: 170px;
+}
+
 
 /*--------------------------3 Column section Ends--------------------------------------------------------------*/
 
 /*--------------------------------Hero Section Starts----------------------------------------------------------------*/
-.hero{
+.hero
+{
 	margin-top: 30px;
 	width: 100%;
 	background: #F5F5F5;
 	border-bottom: solid 1px #EEE;
 	border-top: solid 1px #EEE;
- 	box-shadow: 0px 5px 5px #888, 0px -5px 5px #888;
+	box-shadow: 0px 5px 5px #888, 0px -5px 5px #888;
 }
-.hero h1{
+.hero h1
+{
 	padding-top: 20px;
 	text-align: center;
 	text-transform: uppercase;
@@ -112,15 +116,18 @@ header a:hover,.active
 	letter-spacing: 2px;
 	font-size: 30px;
 }
-.hero h2{
+.hero h2
+{
 	text-align: center;
 }
-.banner{
+.banner
+{
 	background: url(../img/bike_banner.png) no-repeat;
 	width: 960px;
 	height: 660px; 
 }
-.banner h3{
+.banner h3
+{
 	padding: 0 20px;
 	font-size: 80px;
 	font-family: 'Jura', sans-serif;
@@ -135,20 +142,24 @@ header a:hover,.active
 /*-----------------------------2 column section------------------------------------------------*/
 
 
-.content1 img{
+.content_2col img
+{
 	width: 300px;
 }
-
-.left_image{
-	margin: 50px auto;
-}
-.right_image{
-	margin: 50px auto;
-}
-.content1{
+.left_image
+{
 	margin-top: 50px;
 }
-.content1 h1{
+.right_image
+{
+	margin-top: 50px;
+}
+.content_2col
+{
+	margin-top: 50px;
+}
+.content_2col h1
+{
 	text-transform: uppercase;
 	font-family: 'Raleway',sans-serif;
 	letter-spacing: 2px;
@@ -160,29 +171,86 @@ header a:hover,.active
 
 /*-----------------------------Footer Starts------------------------------------------------*/
 
-.footer_full{
+.footer_full
+{
 	width: 100%;
-	height: 100px;
 	background: #333;
 	margin-top: 20px;
 	box-shadow: 0px -5px 5px #888;
 }
-.copyrights p{
+.copyrights p
+{
 	padding-top: 30px;
 	color: rgb(153,153,153);
 }
-.widgets nav{
+.widgets nav
+{
 	padding-top: 30px;
 	float: right;
 }
-.widgets nav li{
+.widgets nav li
+{
 	padding-right: 1px;
 }
-.copyrights a:hover{
+.copyrights a:hover
+{
 	color: #1ABC9C;
+}
 span:before
 {
-	content: '\  |  ';
+	content_3col: '\  |  ';
 }
 
 /*-----------------------------Footer Ends------------------------------------------------*/
+
+/*-----------------------------Second Page CSS-----------------------------------------------*/
+
+/*---------------------------Title Start Here--------------------------------------------------*/
+
+.title
+{
+	margin-top: 117px;
+	width: 100%;
+	height: 120px;
+	background: #1ABC9C;
+}
+.title h1
+{
+	text-transform: uppercase;
+	font-family: 'Raleway',sans-serif;
+	color:#FFF;
+	letter-spacing: 1px;
+	font-size: 30px;
+	font-weight: 600;
+	padding-top: 5px;
+}
+.title h2
+{
+	font-family: 'Jura', sans-serif;
+	font-weight: 300;
+	color: #FFF;
+}
+/*---------------------------Title Ends Here--------------------------------------------------*/
+
+/*---------------------------Gallery Start Here--------------------------------------------------*/
+.gallery
+{
+	margin-top: 10px;
+}
+.gallery img
+{
+	width: 300px;	
+	height: 300px;
+}
+.gallery h2
+{
+	font-family: 'Jura', sans-serif;
+	font-weight: 300;
+	padding-top: 10px;
+}
+.gallery a:hover
+{
+	font-weight: 600;
+}
+
+/*---------------------------Gallery Ends Here--------------------------------------------------*/
